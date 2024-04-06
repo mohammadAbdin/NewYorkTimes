@@ -1,0 +1,252 @@
+body {
+    padding: 0 3%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1605px;
+    margin: auto 0px;
+}
+
+header object {
+    position: absolute;
+    margin-left: 6%;
+    left: 0px;
+}
+
+
+
+header p {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.international {
+    font-weight: bold;
+}
+
+
+header .languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .buttons {
+    position: absolute;
+    margin-right: 6%;
+    right: 0px;
+}
+
+.buttons span {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 123, 149);
+    cursor: pointer;
+    font-size: 11px;
+    padding: 9px 10px 6px;
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 9px;
+}
+
+.buttons span:hover {
+    transition: 1s background-color;
+    background-color: rgb(66, 96, 117);
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0px;
+    position: relative;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+section label {
+    font-size: 11px;
+    position: absolute;
+    margin-right: 6%;
+    left: 20px;
+}
+
+section img {
+    width: 427px;
+}
+
+section span {
+    position: absolute;
+    margin-right: 3%;
+    right: 0px;
+}
+
+section label p:nth-child(1) {
+    font-weight: bold;
+}
+
+.divider {
+    margin: 10px 2%;
+    margin-bottom: 0px !important;
+    border-top: 1px solid #dcdcdc;
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.menu ul il {
+    font-weight: 500;
+    padding: 10px 12px;
+    font-size: 0.70rem;
+    color: black;
+}
+
+.menu ul il img {
+    margin-left: 5px;
+    margin-top: -3px;
+    width: 8px;
+}
+
+.verticle-divider {
+    padding: 20px 12px;
+    border-left: 1px solid #dcdcdc;
+    height: 0.5rem;
+}
+
+.menu ul il:hover {
+    text-decoration: underline;
+}
+
+.double-divider {
+    margin: 1px 2%;
+    margin-bottom: 20px !important;
+    border-top: 1px solid black;
+    height: 2px;
+    border-bottom: 1px solid black;
+}
+
+.main-paragraphs {
+    flex: 1;
+
+    border-right: #dcdcdc solid 1px;
+    height: 65vh;
+    width: 62vw;
+}
+
+.titles {
+    /* border: 1px solid black; */
+    margin: 1px 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.titles .writtings .paragraph {
+    flex: 0 0 30%;
+    width: 24vw;
+
+}
+
+.titles .writtings .paragraph p {
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    letter-spacing: 0.01em;
+    width: 25vw;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: black;
+    cursor: pointer;
+}
+
+.titles .writtings .paragraph p:hover {
+    color: rgb(105, 105, 105);
+}
+
+.titles .writtings .paragraph label {
+    font-family: nyt-imperial;
+    margin-top: 0.25rem;
+    color: #5A5A5A;
+    width: 25vw;
+    margin: 4px 0px 0px;
+    font-size: 0.875rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.read {
+    display: contents;
+    font-size: 0.6rem;
+    color: #5A5A5A;
+}
+
+.titles img {
+    flex-grow: 7;
+    padding: 20px 25px;
+    width: 100%;
+    height: 350px;
+    right: 0px;
+    position: relative;
+}
+
+.titles .img-src {
+    flex: 0 0 58%;
+}
+
+.news-divider {
+    margin: 10px 2%;
+    margin-bottom: 0px !important;
+    border-top: 1px solid black;
+}
+
+.side-news {
+    width: 350px;
+    height: fit-content;
+    right: 70px;
+    top: 220px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.side-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.side-title img {
+    width: 350px;
+}
+
+.side-title .main {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.side-title .main:hover {
+    color: rgb(105, 105, 105);
+}
+
+.side-title label {
+    margin: 8px 0px 0px;
+    font-family: nyt-imperial;
+    margin-top: 0.5rem;
+    color: #5A5A5A;
+}
